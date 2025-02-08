@@ -1,50 +1,43 @@
-# Welcome to your Expo app 👋
+# Omoiyari
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[![pub package](https://img.shields.io/npm/v/tempoid.svg)](https://www.npmjs.com/package/tempoid)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Get started
+Omoiyari is a mobile app for both Android and iOS that aims to eliminate procrastination through a process of active delaying.
 
-1. Install dependencies
+To put it simply, every time you try to open an app (say, a social media app like X) the Omoiyari thinks is going to affect your productivity, at first it will prompt you to think about opening that app, so that you have some time to think about how it is going to affect your work productivity, and your general mood and happiness.
+By doing so, Omoiyari will help you to lessen your screen time, save your time, and generally make you a less phone-dependent person.
+It also has a built-in graphical display, so that you can view your statistics about phone-related activities.
 
-   ```bash
-   npm install
-   ```
+# Inspirations
+We (@mechaman122 and @thuankhangho), the creators of **Omoiyari**, would like to thank the following application for being inspirational sources to help us define and build this project:
+ - [**One Sec**](https://one-sec.app/)
+ - [**Blockit**](https://play.google.com/store/apps/details?id=com.hypenet.focused&hl=en)
 
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+# Running the project
+To get started with running this project, firstly install all of the necessary packages by running the following command:
 ```bash
-npm run reset-project
+npm install
 ```
+Then, there are 3 ways to test the app (for now):
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+ - The web version: ```npm run web```
+ - The Android version: ```npm run android```
+ - The iOS version: ```npm run ios```
 
-## Learn more
+In the future, only one command is used to run the app:
+```bash
+npx expo start
+```
+You can check out more of Expo by looking at the README (expo).md file, or check out [Expo's documentation](https://docs.expo.dev/).
 
-To learn more about developing your project with Expo, look at the following resources:
+# License
+The MIT License (MIT)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Copyright (c) 2011-2025 The Omoiyari Authors
 
-## Join the community
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Join our community of developers creating universal apps.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
