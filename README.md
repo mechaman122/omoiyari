@@ -1,6 +1,5 @@
 # Omoiyari
 
-[![pub package](https://img.shields.io/npm/v/tempoid.svg)](https://www.npmjs.com/package/tempoid)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Omoiyari is a mobile app for both Android and iOS that aims to eliminate procrastination through a process of active delaying.
@@ -10,7 +9,7 @@ By doing so, Omoiyari will help you to lessen your screen time, save your time, 
 It also has a built-in graphical display, so that you can view your statistics about phone-related activities.
 
 # Inspirations
-We (@mechaman122 and @thuankhangho), the creators of **Omoiyari**, would like to thank the following application for being inspirational sources to help us define and build this project:
+We ([@mechaman122](https://github.com/mechaman122) and [@thuankhangho](https://github.com/thuankhangho)), the creators of **Omoiyari**, would like to thank the following application for being inspirational sources to help us define and build this project:
  - [**One Sec**](https://one-sec.app/)
  - [**Blockit**](https://play.google.com/store/apps/details?id=com.hypenet.focused&hl=en)
 
@@ -29,7 +28,7 @@ In the future, only one command is used to run the app:
 ```bash
 npx expo start
 ```
-You can check out more of Expo by looking at the README (expo).md file, or check out [Expo's documentation](https://docs.expo.dev/).
+You can check out more of Expo by looking at the [Expo's generated README file](README_expo.md) file, or check out [Expo's documentation](https://docs.expo.dev/).
 
 # License
 The MIT License (MIT)
